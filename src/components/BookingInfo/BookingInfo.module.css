@@ -1,0 +1,42 @@
+.bookingWidgetWrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1ab394;
+    border-radius: 3px;
+}
+
+.bookingInfoWrapper {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed #CE4676;
+}
+
+.bookingInfoHeaderWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bookingInfoConfigWrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookingInfoConfigWrapper input {
+    margin: 5px 0;
+}
+
+.bookingAccommodationDataWrapper {
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px dashed #CE4676;
+}
+
+.bookingPaymentWrapper {
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px dashed #CE4676;
+}

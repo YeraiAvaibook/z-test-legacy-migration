@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# editor
+.idea
+
+# parcel
+.parcel-cache
+/public/widgets/search/dist
