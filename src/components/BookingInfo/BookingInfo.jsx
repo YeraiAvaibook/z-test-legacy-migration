@@ -1,4 +1,5 @@
 import styles from './BookingInfo.module.css';
+import SearchInput from "../SearchInput/SearchInput";
 
 export default function BookingInfo({ bookingData }) {
     return (
@@ -10,7 +11,7 @@ export default function BookingInfo({ bookingData }) {
                     <span>01/01/1990</span>
                 </div>
                 <div className={styles.bookingInfoConfigWrapper}>
-                    <input id="bookingIdentifier" type="text" placeholder="Identificador de la reserva" />
+                    <SearchInput />
                     <input id="bookingOrigin" type="text" placeholder="Origen de la reserva"/>
                     <input id="bookingTaxes" type="number" placeholder="Tasa"/>
                     <input id="bookingTags" type="text" placeholder="Etiquetas"/>
