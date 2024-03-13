@@ -40,4 +40,4 @@ next-env.d.ts
 
 # parcel
 .parcel-cache
-/public/widgets/search/dist
+/public/widgets/booking/dist
